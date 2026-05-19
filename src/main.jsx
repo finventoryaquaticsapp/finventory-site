@@ -89,37 +89,30 @@ function BubbleField() {
 
 function Header() {
   return (
-    <header className="relative left-0 right-0 top-0 z-50 border-b border-cyan-300/10 bg-slate-950/70 backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-center px-5 py-4">
-        <a href="#home" className="flex items-center gap-3">
-          <img
-            src="./finventory-logo.png"
-            alt="Finventory logo"
-            className="h-14 w-auto drop-shadow-[0_0_18px_rgba(34,211,238,.75)]"
-          />
-          <div>
-            <p className="text-2xl font-black leading-none text-cyan-300 neon-text">Finventory</p>
-            <p className="hidden text-[10px] uppercase tracking-[.28em] text-cyan-100 sm:block">
-              Aquatic Ecosystem App
-            </p>
-          </div>
-        </a>
+    <<header className="relative z-50 w-full border-b border-cyan-300/10 bg-slate-950/70 backdrop-blur-xl">
+  <div className="mx-auto flex w-full justify-center px-4 py-6">
+    
+    <a
+      href="#home"
+      className="flex flex-col items-center justify-center text-center"
+    >
+      <img
+        src="./finventory-logo.png"
+        alt="Finventory logo"
+        className="block w-full max-w-[260px] sm:max-w-[340px] md:max-w-[420px] h-auto object-contain drop-shadow-[0_0_20px_rgba(34,211,238,.75)]"
+      />
 
-        <nav className="hidden items-center gap-8 text-sm font-semibold text-cyan-50 md:flex">
-          <a href="#calculators" className="hover:text-cyan-300">Calculators</a>
-          <a href="#guides" className="hover:text-cyan-300">Guides</a>
-          <a href="#creatures" className="hover:text-cyan-300">Creatures</a>
-          <a href="#beta" className="hover:text-cyan-300">Beta</a>
-        </nav>
+      <h1 className="mt-3 text-3xl sm:text-4xl font-black text-cyan-300 neon-text">
+        Finventory
+      </h1>
 
-        <a
-          href="#beta"
-          className="rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm font-bold text-cyan-100 shadow-aqua hover:bg-cyan-300/20"
-        >
-          Join Beta
-        </a>
-      </div>
-    </header>
+      <p className="mt-1 text-xs uppercase tracking-[.28em] text-cyan-100">
+        Aquatic Ecosystem App
+      </p>
+    </a>
+
+  </div>
+</header>
   );
 }
 

@@ -369,7 +369,7 @@ function Footer() {
 
 function App() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[#020817] text-white">
+    <main className="relative min-h-screen overflow-x-hidden bg-[#020817] text-white">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top,#07598566,transparent_34%),linear-gradient(180deg,transparent,#020817)]" />
       <Header />
       <Hero />

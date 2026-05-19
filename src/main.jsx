@@ -99,8 +99,7 @@ function Header() {
       <img
         src="./finventory-logo.png"
         alt="Finventory logo"
-        className="block w-full max-w-[260px] sm:max-w-[340px] md:max-w-[420px] h-auto object-contain drop-shadow-[0_0_20px_rgba(34,211,238,.75)]"
-      />
+        className=className="block w-full max-w-[160px] sm:max-w-[220px] md:max-w-[280px] h-auto object-contain drop-shadow-[0_0_20px_rgba(34,211,238,.75)]"
 
       <h1 className="mt-3 text-3xl sm:text-4xl font-black text-cyan-300 neon-text">
         Finventory

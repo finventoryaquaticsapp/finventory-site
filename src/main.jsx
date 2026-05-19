@@ -90,7 +90,7 @@ function BubbleField() {
 function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-cyan-300/10 bg-slate-950/70 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-center px-5 py-4">
         <a href="#home" className="flex items-center gap-3">
           <img
             src="/finventory-logo.png"

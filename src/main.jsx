@@ -93,7 +93,7 @@ function Header() {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-center px-5 py-4">
         <a href="#home" className="flex items-center gap-3">
           <img
-            src="/finventory-logo.png"
+            src="./finventory-logo.png"
             alt="Finventory logo"
             className="h-14 w-auto drop-shadow-[0_0_18px_rgba(34,211,238,.75)]"
           />

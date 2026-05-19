@@ -1,4 +1,7 @@
-{
+{"@tailwindcss/postcss": "latest",
+"tailwindcss": "latest",
+"postcss": "latest",
+"autoprefixer": "latest"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
